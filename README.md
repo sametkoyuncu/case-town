@@ -13,7 +13,7 @@ npm i case-town
 ```javascript
 const caseTown = require('case-town')
 
-let str = 'your string HERE'
+let str = 'your*-,  striNg _HERE'
 
 let convertedStr1 = caseTown.camel(str)
 // returned: yourStringHere
