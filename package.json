@@ -1,11 +1,21 @@
 {
   "name": "case-town",
   "version": "0.1.0",
-  "description": "Convert a space separated string to camel case, pascal case, kebab case or snake case.",
+  "description": "Convert space separated string to camel case, pascal case, kebab case or snake case.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sametkoyuncu/case-town.git"
+  },
+  "keywords": [
+    "camel case",
+    "pascal case",
+    "kebab case",
+    "snake case"
+  ],
   "author": "Samet Koyuncu <sametkoyuncu@live.com>",
   "license": "MIT"
 }
