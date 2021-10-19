@@ -1,6 +1,6 @@
 # case-town | What is this project?
 
-Convert a space separated string to camel case, pascal case, kebab case or snake case.
+Convert space separated string to camel case, pascal case, kebab case or snake case.
 
 # Installation
 
@@ -13,7 +13,7 @@ npm i case-town
 ```javascript
 const caseTown = require('case-town')
 
-let str = 'your string HERE'
+let str = 'your*-,  striNg _HERE'
 
 let convertedStr1 = caseTown.camel(str)
 // returned: yourStringHere
