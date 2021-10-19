@@ -18,4 +18,8 @@
   ],
   "author": "Samet Koyuncu <sametkoyuncu@live.com>",
   "license": "MIT"
+  "bugs": {
+    "url": "https://github.com/sametkoyuncu/dateween/issues"
+  },
+  "homepage": "https://github.com/sametkoyuncu/dateween#readme"
 }
