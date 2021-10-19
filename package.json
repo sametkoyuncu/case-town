@@ -1,6 +1,6 @@
 {
   "name": "case-town",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Convert space separated string to camel case, pascal case, kebab case or snake case.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,7 @@
     "snake case"
   ],
   "author": "Samet Koyuncu <sametkoyuncu@live.com>",
-  "license": "MIT"
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sametkoyuncu/dateween/issues"
   },
