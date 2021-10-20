@@ -14,7 +14,10 @@
     "camel case",
     "pascal case",
     "kebab case",
-    "snake case"
+    "snake case",
+    "url case",
+    "title case",
+    "windows path case"
   ],
   "author": "Samet Koyuncu <sametkoyuncu@live.com>",
   "license": "MIT",

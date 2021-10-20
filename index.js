@@ -33,4 +33,22 @@ const snake = (str) =>
     .map((word) => word.toLowerCase())
     .join('_')
 
-module.exports = { camel, pascal, kebab, snake }
+const url = (str) =>
+  cleanString(str)
+    .split(' ')
+    .map((word) => word.toLowerCase())
+    .join('/')
+
+const windowsPath = (str) =>
+  cleanString(str)
+    .split(' ')
+    .map((word) => word.toLowerCase())
+    .join('\\')
+
+const title = (str) =>
+  cleanString(str)
+    .split(' ')
+    .map((word) => word[0].toUpperCase() + word.slice(1).toLowerCase())
+    .join(' ')
+
+module.exports = { camel, pascal, kebab, snake, url, title, windowsPath }
