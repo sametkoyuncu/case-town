@@ -1,6 +1,6 @@
-# case-town | What is this project?
+# case-town
 
-Convert space separated string to camel case, pascal case, kebab case or snake case.
+Convert space separated string to diffrent cases (camel case, pascal case, etc.).
 
 # Installation
 
