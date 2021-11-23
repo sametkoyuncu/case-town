@@ -11,6 +11,8 @@ npm i case-town
 # Usage
 
 ```javascript
+import caseTown from 'case-town'
+or
 const caseTown = require('case-town')
 
 let str = 'your*-,  striNg _HERE'
@@ -35,4 +37,7 @@ let convertedStr6 = caseTown.title(str)
 
 let convertedStr7 = caseTown.windowsPath(str)
 // returned: your\string\here
+
+let convertedStr8 = caseTown.searchQuery(str)
+// returned: your+string+here
 ```
