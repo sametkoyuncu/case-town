@@ -39,5 +39,8 @@ let convertedStr7 = caseTown.windowsPath(str)
 // returned: your\string\here
 
 let convertedStr8 = caseTown.searchQuery(str)
-// returned: your+string+here
+// returned: your+striNg+HERE
+
+let convertedStr9 = caseTown.justClear(str)
+// returned: your striNg HERE
 ```

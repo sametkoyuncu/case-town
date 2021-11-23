@@ -52,8 +52,8 @@ const title = (str) =>
     .map((word) => word[0].toUpperCase() + word.slice(1).toLowerCase())
     .join(' ')
 
-const searchQuery = (str) => cleanString(str).split(' ').join('+')
-
+const searchQuery = (str) => cleanString(str).split(' ').join('+').slice(0, -1)
+const justClear = (str) => cleanString(str)
 module.exports = {
   camel,
   pascal,
@@ -63,4 +63,5 @@ module.exports = {
   title,
   windowsPath,
   searchQuery,
+  justClear,
 }
