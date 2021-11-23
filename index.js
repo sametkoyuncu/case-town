@@ -7,9 +7,9 @@
 */
 const cleanString = (str) =>
   str
-    .trim()
     .replace(/[^\w\s]|_/g, '')
     .replace(/\s+/g, ' ')
+    .trim()
 
 const camel = (str) =>
   cleanString(str)
