@@ -5,7 +5,11 @@
 
     thanks to John Kugelman for this regex
 */
-const cleanString = (str) => str.replace(/[^\w\s]|_/g, '').replace(/\s+/g, ' ')
+const cleanString = (str) =>
+  str
+    .trim()
+    .replace(/[^\w\s]|_/g, '')
+    .replace(/\s+/g, ' ')
 
 const camel = (str) =>
   cleanString(str)
