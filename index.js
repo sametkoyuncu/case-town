@@ -52,7 +52,7 @@ const title = (str) =>
     .map((word) => word[0].toUpperCase() + word.slice(1).toLowerCase())
     .join(' ')
 
-const searchQuery = (str) => cleanString(str).split(' ').join('+').slice(0, -1)
+const searchQuery = (str) => cleanString(str).split(' ').join('+')
 const justClear = (str) => cleanString(str)
 module.exports = {
   camel,
