@@ -1,6 +1,6 @@
 {
   "name": "case-town",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "description": "Convert space separated string to diffrent cases (camel case, pascal case, etc.).",
   "main": "index.js",
   "scripts": {
